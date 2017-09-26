@@ -1,0 +1,5 @@
+/home/luis/Git/school-stuff/CSharp/helloWorld/helloWorld/bin/Debug/helloWorld.exe
+/home/luis/Git/school-stuff/CSharp/helloWorld/helloWorld/bin/Debug/helloWorld.pdb
+/home/luis/Git/school-stuff/CSharp/helloWorld/helloWorld/obj/x86/Debug/helloWorld.csproj.CoreCompileInputs.cache
+/home/luis/Git/school-stuff/CSharp/helloWorld/helloWorld/obj/x86/Debug/helloWorld.exe
+/home/luis/Git/school-stuff/CSharp/helloWorld/helloWorld/obj/x86/Debug/helloWorld.pdb
