@@ -3,13 +3,14 @@ program factorial;
 uses crt;
 
 var
-  a,b : Integer;
+  a,b,c : Integer;
   
 begin
 
   write('Factorial of ');
   readln(a);
   b:=a;
+  c:=a;
   
   while b > 1 do
   begin
@@ -17,5 +18,6 @@ begin
     a := a*b;
   end;
   
-  writeln('Factorial= ', a);
+  write(c);
+  write('!=',a)
 end.

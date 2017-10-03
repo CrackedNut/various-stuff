@@ -5,13 +5,16 @@ using namespace std;
 int main()
 {
   int num, fa;
-  scanf("Factorial of: %.i\n",num);
+  printf("Factorial of: ");
+  scanf("Factorial of: %d\n",num);
   fa = num;
-  for(int a = num-1, a>0, a--)
+  int a = num
+  for(int a = num; a>1; a--)
   {
     num = num * a;
   }
 
-  printf("%i!= %i", fa, num)
+  printf("%d!=",num);
+
   return 0;
 }
