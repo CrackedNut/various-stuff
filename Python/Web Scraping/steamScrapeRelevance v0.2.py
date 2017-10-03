@@ -12,23 +12,23 @@ while True:
 browser = webdriver.PhantomJS()
 
 for pageN in range(1,toScrape):
-	print("\nScraping page {}...".format(pageN))
+	print("\nScraping page {}...".fohrmat(pageN))
 	try:
 		#open connection, load page and pull
 		browser.get("http://store.steampowered.com/search/?specials=1&page={}".format(pageN))
 
 		#parse HTML
 		pageSoup = bs(browser.page_source, "html.parser")
-		
+
 		#find all <a> which contain info.
 		containers = pageSoup.findAll("a", {"class":"search_result_row"})
-		
-		#create a .csv for storing 
+
+		#create a .csv for storing
 		filename = "./Steam/Games by relevance({}{}) p{}.csv".format(time.strftime("%d-%m-%Y"), time.strftime("%H:%M:%S"), pageN)
-		
+
 		#Headers for .csv
 		header = "Game,Release date,Discount,Old price,Current Price\n"
-		
+
 		#Create blank .csv and write the headers
 		f = open(filename, "w")
 		f.write(headers)
@@ -39,7 +39,7 @@ for pageN in range(1,toScrape):
 
 			releaseContainer = container.findAll("div", {"class":"search_released"})
 			releaseDate = releaseContainer[0].text.strip()
-            
+
             #because some items have no discount, check if discount. If none execute except blocks
 			try:
 				discountContainer = container.findAll("dev", {"class":"title"})
@@ -65,9 +65,9 @@ for pageN in range(1,toScrape):
 			print("discountPerc: "+discountPerc)
 			print("oldPrice: "+oldPrice)
 			print("currentPrice: "+currentPrice)
-			
+
 			f.write("\n"+gameName+","+releaseDate.replace(",", " ")+","+discountPerc+","+oldPrice.replace(",", ".")+","+currentPrice.replace(",", "."))
-		
+
 		f.close()
 
 		print("\n\nProgress: {}%".format(int((pageN/toScrape)*100.0)))

@@ -67,3 +67,600 @@ Crash Annotation GraphicsCriticalError: |[C0][GFX1-]: Receive IPC close with rea
 ###!!! [Child][MessageChannel] Error: (msgtype=0x4400C6,name=PContent::Msg_GraphicsError) Channel error: cannot send/recv
 
 [GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1506466784719	geckodriver	INFO	geckodriver 0.19.0
+1506466784744	geckodriver	INFO	Listening on 127.0.0.1:36831
+1506466785825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.e8mCy86uUCuj"
+1506466786996	Marionette	INFO	Enabled via --marionette
+1506466790012	Marionette	INFO	Listening on port 40123
+1506466790113	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506466790162	Marionette	DEBUG	loaded listener.js
+1506466790178	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506466791117	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506466791117	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506466791317	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=5tvKWYz6E9LCXunZuLgM&gws_rd=ssl"
+1506466792271	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=5tvKWYz6E9LCXunZuLgM&gws_rd=ssl"
+1506466792923	Marionette	INFO	New connections will no longer be accepted
+[Child 12754] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506466838460	geckodriver	INFO	geckodriver 0.19.0
+1506466838463	geckodriver	INFO	Listening on 127.0.0.1:60755
+1506466839564	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LUQ3a6EKqX56"
+1506466840378	Marionette	INFO	Enabled via --marionette
+1506466843002	Marionette	INFO	Listening on port 38055
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506466843105	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506466843152	Marionette	DEBUG	loaded listener.js
+1506466843177	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506466843993	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506466843994	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506466844188	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=G9zKWf6MEdHCXqSHtsAL&gws_rd=ssl"
+1506466845121	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=G9zKWf6MEdHCXqSHtsAL&gws_rd=ssl"
+1506466845875	Marionette	INFO	New connections will no longer be accepted
+1506466864119	geckodriver	INFO	geckodriver 0.19.0
+1506466864122	geckodriver	INFO	Listening on 127.0.0.1:37137
+1506466865218	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qrSE627kgrrh"
+1506466866028	Marionette	INFO	Enabled via --marionette
+1506466868777	Marionette	INFO	Listening on port 43691
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506466868834	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506466868876	Marionette	DEBUG	loaded listener.js
+1506466868893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506466869786	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506466869786	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506466869998	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=NNzKWYLBPM_CXpDqmIAE&gws_rd=ssl"
+1506466870841	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.google.it/?gfe_rd=cr&dcr=0&ei=NNzKWYLBPM_CXpDqmIAE&gws_rd=ssl"
+1506466870999	Marionette	INFO	New connections will no longer be accepted
+[Child 13038] WARNING: pipe error (36): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 13038] WARNING: pipe error (20): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 13038] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506467286528	geckodriver	INFO	geckodriver 0.19.0
+1506467286532	geckodriver	INFO	Listening on 127.0.0.1:42651
+1506467287632	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.kmRbEzHQGWMK"
+1506467288474	Marionette	INFO	Enabled via --marionette
+1506467291185	Marionette	INFO	Listening on port 37469
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506467291253	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506467291298	Marionette	DEBUG	loaded listener.js
+1506467291314	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506467291972	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506467291972	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://tf2center.com/assets/javascript/jquery-1.9.1.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1506467292221	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tf2center.com/"
+JavaScript error: https://tf2center.com/assets/stats.js, line 2: SyntaxError: unterminated regular expression literal
+1506467293032	Marionette	DEBUG	Received DOM event "pageshow" for "https://tf2center.com/"
+1506467340416	geckodriver	INFO	geckodriver 0.19.0
+1506467340419	geckodriver	INFO	Listening on 127.0.0.1:54709
+1506467341513	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.yNNnSZwf0nwS"
+1506467342364	Marionette	INFO	Enabled via --marionette
+1506467345228	Marionette	INFO	Listening on port 44455
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506467345333	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506467345371	Marionette	DEBUG	loaded listener.js
+1506467345386	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506467346067	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506467346068	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: https://tf2center.com/assets/javascript/jquery.jgrowl.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: https://tf2center.com/assets/javascript/jquery.jgrowl.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1506467348051	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tf2center.com/lobbies"
+1506467348067	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://tf2center.com/lobbies"
+1506467348068	Marionette	DEBUG	Received DOM event "pageshow" for "https://tf2center.com/lobbies"
+JavaScript error: https://tf2center.com/assets/stats.js, line 2: SyntaxError: unterminated regular expression literal
+1506467350268	Marionette	DEBUG	Received DOM event "pageshow" for "https://tf2center.com/lobbies"
+1506469340403	geckodriver	INFO	geckodriver 0.19.0
+1506469340406	geckodriver	INFO	Listening on 127.0.0.1:41337
+1506469341503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.YVvqxC4uzXD0"
+1506469342299	Marionette	INFO	Enabled via --marionette
+1506469345022	Marionette	INFO	Listening on port 39645
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469345121	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469345169	Marionette	DEBUG	loaded listener.js
+1506469345191	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469346466	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469346467	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469346905	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469347439	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469370728	geckodriver	INFO	geckodriver 0.19.0
+1506469370731	geckodriver	INFO	Listening on 127.0.0.1:36727
+1506469371833	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.FE9zTGCNbkGk"
+1506469372673	Marionette	INFO	Enabled via --marionette
+1506469375342	Marionette	INFO	Listening on port 37891
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469375355	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469375415	Marionette	DEBUG	loaded listener.js
+1506469375459	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469376684	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469376685	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469377122	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469377692	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469391449	geckodriver	INFO	geckodriver 0.19.0
+1506469391453	geckodriver	INFO	Listening on 127.0.0.1:47819
+1506469392549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.P46nkG41e1iN"
+1506469393385	Marionette	INFO	Enabled via --marionette
+1506469396186	Marionette	INFO	Listening on port 36843
+1506469396285	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469396331	Marionette	DEBUG	loaded listener.js
+1506469396353	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469397339	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469397339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469397925	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+[Child 16095] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506469406360	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "2147483649"
+1506469411278	geckodriver	INFO	geckodriver 0.19.0
+1506469411281	geckodriver	INFO	Listening on 127.0.0.1:49159
+1506469412378	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.La6IlSgQvbMC"
+1506469413580	Marionette	INFO	Enabled via --marionette
+1506469416254	Marionette	INFO	Listening on port 36521
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469416387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469416434	Marionette	DEBUG	loaded listener.js
+1506469416454	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469417397	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469417398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469417912	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469418455	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469494649	geckodriver	INFO	geckodriver 0.19.0
+1506469494653	geckodriver	INFO	Listening on 127.0.0.1:49283
+1506469495750	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.oE5fpoMaYxMp"
+1506469496528	Marionette	INFO	Enabled via --marionette
+1506469499136	Marionette	INFO	Listening on port 34753
+1506469499207	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469499263	Marionette	DEBUG	loaded listener.js
+1506469499278	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469500055	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469500055	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469500581	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469501155	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469914250	geckodriver	INFO	geckodriver 0.19.0
+1506469914255	geckodriver	INFO	Listening on 127.0.0.1:36741
+1506469915360	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.T0g2PfSUvboe"
+1506469916188	Marionette	INFO	Enabled via --marionette
+1506469918973	Marionette	INFO	Listening on port 40057
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469919086	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469919133	Marionette	DEBUG	loaded listener.js
+1506469919186	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469920339	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469920339	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469920883	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469921438	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469948099	geckodriver	INFO	geckodriver 0.19.0
+1506469948102	geckodriver	INFO	Listening on 127.0.0.1:38595
+1506469949202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Jjb0k8wChOCl"
+1506469950240	Marionette	INFO	Enabled via --marionette
+1506469953665	Marionette	INFO	Listening on port 34867
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469953721	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469953760	Marionette	DEBUG	loaded listener.js
+1506469953782	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469954771	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469954772	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469955334	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469955890	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506469982528	geckodriver	INFO	geckodriver 0.19.0
+1506469982531	geckodriver	INFO	Listening on 127.0.0.1:59501
+1506469983637	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.l58bDLvusGO4"
+1506469984574	Marionette	INFO	Enabled via --marionette
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1506469987874	Marionette	INFO	Listening on port 36927
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506469987961	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506469987996	Marionette	DEBUG	loaded listener.js
+1506469988011	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506469988816	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506469988817	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506469989235	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506469989789	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470103789	geckodriver	INFO	geckodriver 0.19.0
+1506470103792	geckodriver	INFO	Listening on 127.0.0.1:53981
+1506470104885	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ODlI6sVfiQbC"
+1506470105746	Marionette	INFO	Enabled via --marionette
+1506470108582	Marionette	INFO	Listening on port 46499
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470108612	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470108671	Marionette	DEBUG	loaded listener.js
+1506470108696	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470109704	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470109705	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470110218	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470110763	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470240721	geckodriver	INFO	geckodriver 0.19.0
+1506470240724	geckodriver	INFO	Listening on 127.0.0.1:57551
+1506470241841	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ds2vQ8sz3Ej1"
+1506470242917	Marionette	INFO	Enabled via --marionette
+1506470245808	Marionette	INFO	Listening on port 37151
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470245861	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470245897	Marionette	DEBUG	loaded listener.js
+1506470245913	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470246740	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470246740	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470247164	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470247724	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470267385	geckodriver	INFO	geckodriver 0.19.0
+1506470267388	geckodriver	INFO	Listening on 127.0.0.1:48783
+1506470268531	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ug6h8w0NJsjK"
+1506470269430	Marionette	INFO	Enabled via --marionette
+1506470272344	Marionette	INFO	Listening on port 41311
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470272448	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470272487	Marionette	DEBUG	loaded listener.js
+1506470272503	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470273476	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470273477	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470274001	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470274521	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470407187	geckodriver	INFO	geckodriver 0.19.0
+1506470407190	geckodriver	INFO	Listening on 127.0.0.1:33767
+1506470408325	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.s4qozipfgiBO"
+1506470409176	Marionette	INFO	Enabled via --marionette
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:569:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+1506470412258	Marionette	INFO	Listening on port 46317
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470412363	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470412405	Marionette	DEBUG	loaded listener.js
+1506470412447	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470413678	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470413678	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470414077	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470414588	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470492085	geckodriver	INFO	geckodriver 0.19.0
+1506470492089	geckodriver	INFO	Listening on 127.0.0.1:41603
+1506470493190	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.RHVxm3EvP1nP"
+1506470493971	Marionette	INFO	Enabled via --marionette
+1506470496558	Marionette	INFO	Listening on port 45243
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470496621	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470496661	Marionette	DEBUG	loaded listener.js
+1506470496676	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470497646	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470497646	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470498157	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470498698	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1773, column: 11
+1506470551870	geckodriver	INFO	geckodriver 0.19.0
+1506470551873	geckodriver	INFO	Listening on 127.0.0.1:59515
+1506470552970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.SVox4AKOZl6W"
+1506470553748	Marionette	INFO	Enabled via --marionette
+1506470556341	Marionette	INFO	Listening on port 43243
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470556390	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470556429	Marionette	DEBUG	loaded listener.js
+1506470556443	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470557627	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470557629	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470558303	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470558937	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470597952	geckodriver	INFO	geckodriver 0.19.0
+1506470597955	geckodriver	INFO	Listening on 127.0.0.1:40023
+1506470599043	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.KyWGd3cLbl2s"
+1506470599849	Marionette	INFO	Enabled via --marionette
+1506470602439	Marionette	INFO	Listening on port 46651
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470602459	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470602496	Marionette	DEBUG	loaded listener.js
+1506470602514	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470603654	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470603654	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470604169	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470604737	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1773, column: 11
+console.error: 
+  Handler function LocalDebuggerTransport instance's this.other.hooks.onPacket threw an exception: TypeError: to is null
+Stack: onPacket@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/server/main.js:1773:11
+send/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/transport/transport.js:570:13
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+Line: 1773, column: 11
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+1506470666311	geckodriver	INFO	geckodriver 0.19.0
+1506470666314	geckodriver	INFO	Listening on 127.0.0.1:40821
+1506470667410	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.DtinSiVc5ODD"
+1506470668165	Marionette	INFO	Enabled via --marionette
+1506470670774	Marionette	INFO	Listening on port 40417
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470670827	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470670867	Marionette	DEBUG	loaded listener.js
+1506470670884	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470671829	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470671829	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470672356	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470672893	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1506470728955	geckodriver	INFO	geckodriver 0.19.0
+1506470728959	geckodriver	INFO	Listening on 127.0.0.1:49983
+1506470730054	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LjFZWGgzVKlw"
+1506470730817	Marionette	INFO	Enabled via --marionette
+1506470733501	Marionette	INFO	Listening on port 40191
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470733570	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470733609	Marionette	DEBUG	loaded listener.js
+1506470733624	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470734397	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470734398	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470734873	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470735439	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+[Parent 19277] WARNING: pipe error (73): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1506470774555	geckodriver	INFO	geckodriver 0.19.0
+1506470774558	geckodriver	INFO	Listening on 127.0.0.1:45425
+1506470775659	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Ew4rssJaz3Ft"
+1506470776488	Marionette	INFO	Enabled via --marionette
+1506470779104	Marionette	INFO	Listening on port 36913
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470779181	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470779224	Marionette	DEBUG	loaded listener.js
+1506470779239	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470780276	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470780277	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470780871	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470781476	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506470943950	geckodriver	INFO	geckodriver 0.19.0
+1506470943953	geckodriver	INFO	Listening on 127.0.0.1:35145
+1506470945047	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5BtrwJ92v3Qq"
+1506470945809	Marionette	INFO	Enabled via --marionette
+1506470948478	Marionette	INFO	Listening on port 40423
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506470948565	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506470948605	Marionette	DEBUG	loaded listener.js
+1506470948619	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506470949879	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506470949879	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506470950380	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506470950882	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+1506471242731	geckodriver	INFO	geckodriver 0.19.0
+1506471242734	geckodriver	INFO	Listening on 127.0.0.1:46189
+1506471243825	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.viXFMSlK5abk"
+1506471244633	Marionette	INFO	Enabled via --marionette
+1506471247321	Marionette	INFO	Listening on port 36363
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471247350	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471247392	Marionette	DEBUG	loaded listener.js
+1506471247408	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471248047	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471248048	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471248442	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471248993	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471292226	geckodriver	INFO	geckodriver 0.19.0
+1506471292229	geckodriver	INFO	Listening on 127.0.0.1:51763
+1506471293326	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.mQQT5udzxToq"
+1506471294129	Marionette	INFO	Enabled via --marionette
+1506471296829	Marionette	INFO	Listening on port 34461
+1506471296841	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471296890	Marionette	DEBUG	loaded listener.js
+1506471296910	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471297527	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471297528	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471297963	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471298637	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1506471315163	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/"
+1506471315164	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506471381928	geckodriver	INFO	geckodriver 0.19.0
+1506471381930	geckodriver	INFO	Listening on 127.0.0.1:43619
+1506471383026	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.ERJLeyL7iZlm"
+1506471383848	Marionette	INFO	Enabled via --marionette
+1506471386403	Marionette	INFO	Listening on port 34459
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471386442	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471386485	Marionette	DEBUG	loaded listener.js
+1506471386501	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471387145	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471387145	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471387618	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471388197	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+1506471443269	geckodriver	INFO	geckodriver 0.19.0
+1506471443272	geckodriver	INFO	Listening on 127.0.0.1:57469
+1506471444365	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.T1sy5lQVrb6i"
+1506471445170	Marionette	INFO	Enabled via --marionette
+1506471447766	Marionette	INFO	Listening on port 37601
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471447789	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471447833	Marionette	DEBUG	loaded listener.js
+1506471447849	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471448505	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471448506	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471449064	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471449744	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471471236	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471471267	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506471587277	geckodriver	INFO	geckodriver 0.19.0
+1506471587281	geckodriver	INFO	Listening on 127.0.0.1:60323
+1506471588380	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.Zj7ejES5HjQy"
+1506471589276	Marionette	INFO	Enabled via --marionette
+Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addSecurityInfo threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+NetworkResponseListener.prototype._getSecurityInfo<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:495:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+onStartRequest@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:436:5
+Line: 1656, column: 0
+Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+console.error: 
+  Handler function NetworkEventActorProxy.addResponseContent threw an exception: [Exception... "Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIMessageSender.sendAsyncMessage]"  nsresult: "0xc1f30001 (NS_ERROR_NOT_INITIALIZED)"  location: "JS frame :: resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js :: NetworkEventActorProxy.methodFactory/< :: line 1656"  data: no]
+Stack: NetworkEventActorProxy.methodFactory/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:1656:5
+exports.makeInfallible/<@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/ThreadSafeDevToolsUtils.js:101:14
+_onComplete@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:620:5
+onStreamClose@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:577:7
+onInputStreamReady@resource://gre/modules/commonjs/toolkit/loader.js -> resource://devtools/shared/webconsole/network-monitor.js:668:7
+Line: 1656, column: 0
+1506471592223	Marionette	INFO	Listening on port 38205
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471592318	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471592365	Marionette	DEBUG	loaded listener.js
+1506471592385	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471593072	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471593073	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471593464	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471594053	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471615457	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471615487	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506471631203	geckodriver	INFO	geckodriver 0.19.0
+1506471631208	geckodriver	INFO	Listening on 127.0.0.1:42681
+1506471632306	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.uRq8Meu2paTl"
+1506471633123	Marionette	INFO	Enabled via --marionette
+1506471635873	Marionette	INFO	Listening on port 41235
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471635926	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471635968	Marionette	DEBUG	loaded listener.js
+1506471635985	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471636658	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471636658	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471637171	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471637786	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471660645	geckodriver	INFO	geckodriver 0.19.0
+1506471660649	geckodriver	INFO	Listening on 127.0.0.1:50659
+1506471661749	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.TbrwMbYjzQE7"
+1506471662581	Marionette	INFO	Enabled via --marionette
+1506471665283	Marionette	INFO	Listening on port 42785
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471665387	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471665440	Marionette	DEBUG	loaded listener.js
+1506471665492	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471666206	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471666207	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471666815	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471667501	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471686807	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471686809	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471686811	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471686931	Marionette	DEBUG	Received DOM event "pagehide" for "https://www.facebook.com/search/top/?q=Alondra%20Abigail"
+1506471686985	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1506471690255	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+1506471693549	Marionette	INFO	New connections will no longer be accepted
+1506471721053	geckodriver	INFO	geckodriver 0.19.0
+1506471721056	geckodriver	INFO	Listening on 127.0.0.1:40983
+1506471722147	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.qH263UWjVSHg"
+1506471723063	Marionette	INFO	Enabled via --marionette
+1506471725744	Marionette	INFO	Listening on port 46399
+JavaScript error: chrome://marionette/content/server.js, line 337: NS_ERROR_SOCKET_ADDRESS_IN_USE: Component returned failure code: 0x804b0036 (NS_ERROR_SOCKET_ADDRESS_IN_USE) [nsIServerSocket.initSpecialConnection]
+1506471725774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1506471725816	Marionette	DEBUG	loaded listener.js
+1506471725832	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1506471726484	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1506471726484	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1506471726940	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.facebook.com/"
+1506471727582	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.facebook.com/"
+1506471735601	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+ATTENTION: default value of option force_s3tc_enable overridden by environment.
+[Parent 21891] WARNING: pipe error (69): Connection reset by peer: file /build/firefox-qZqDB8/firefox-55.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
