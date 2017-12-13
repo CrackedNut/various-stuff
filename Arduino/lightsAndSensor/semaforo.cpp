@@ -2,9 +2,9 @@
 
 #define TRIG_PIN 12
 #define ECHO_PIN 11
-#define R 1
+#define R 3
 #define Y 2
-#define G 3
+#define G 1
 #define BPIN 5
 
 char stato;
@@ -52,7 +52,6 @@ void loop() {
 		tone(BPIN, 440, 250);
 		delay(250);
 	}
-
 	giallo();
 	verde();
 }
