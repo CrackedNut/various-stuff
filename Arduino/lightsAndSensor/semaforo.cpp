@@ -8,7 +8,7 @@
 #define BPIN 5
 
 char stato;
-long 1;
+long a;
 
 SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);
 
