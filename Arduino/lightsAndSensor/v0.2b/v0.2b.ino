@@ -35,7 +35,6 @@ void setup() {
   pinMode(R, OUTPUT);
   pinMode(Y, OUTPUT);
   pinMode(G, OUTPUT);
-  Serial.begin(9600);
   delay(500);
   tone(BPIN, 440, 50);
 }
