@@ -5,9 +5,11 @@
 #define R 1
 #define Y 2
 #define G 3
+#define BPIN 5
 
 char stato;
-long a;
+long 1;
+
 SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);
 
 void rosso() {
@@ -15,7 +17,6 @@ void rosso() {
 	digitalWrite(Y, LOW);
 	digitalWrite(G, LOW);
 	delay(8000);
-	stato = 
 }
 
 void giallo() {
@@ -39,11 +40,16 @@ void setup() {
 }
 
 void loop() {
+	a=sr04.Distance();
 	rosso();
+	while(a>sr04.Distance()){
+		tone(BPIN, 587, 250);
+		delay(250);
+		tone(BPIN, 440, 250);
+		delay(250);
+	}
+
 	giallo();
 	verde();
-
-	a=sr04.Distance();
-	if()
 }
 
