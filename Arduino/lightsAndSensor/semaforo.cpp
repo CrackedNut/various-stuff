@@ -37,10 +37,14 @@ void setup() {
 	pinMode(R, OUTPUT);
 	pinMode(Y, OUTPUT);
 	pinMode(G, OUTPUT);
+	Serial.begin(9600);
+	delay(1000);
 }
 
 void loop() {
 	a=sr04.Distance();
+	Serial.print(a);
+    Serial.println("cm");
 	rosso();
 	while(a>sr04.Distance()){
 		tone(BPIN, 587, 250);
