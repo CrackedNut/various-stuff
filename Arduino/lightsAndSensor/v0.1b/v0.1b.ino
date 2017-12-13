@@ -1,14 +1,12 @@
 #include "SR04.h"
 
+#define R 2
+#define Y 3
+#define G 4
+#define BPIN 7
 #define TRIG_PIN 12
 #define ECHO_PIN 11
-#define R 3
-#define Y 2
-#define G 1
-#define BPIN 5
-
-char stato;
-long a;
+int del = 0;
 
 SR04 sr04 = SR04(ECHO_PIN,TRIG_PIN);
 
@@ -16,7 +14,6 @@ void rosso() {
   digitalWrite(R, HIGH);
   digitalWrite(Y, LOW);
   digitalWrite(G, LOW);
-  delay(8000);
 }
 
 void giallo() {
@@ -34,23 +31,45 @@ void verde() {
 }
 
 void setup() {
+  // put your setup code here, to run once:
   pinMode(R, OUTPUT);
   pinMode(Y, OUTPUT);
   pinMode(G, OUTPUT);
   Serial.begin(9600);
-  delay(1000);
+  delay(500);
+  tone(BPIN, 440, 50);
 }
 
 void loop() {
-  a=sr04.Distance();
-  Serial.println(a);
-  rosso();
-  while(sr04.Distance()<20){
-    tone(BPIN, 587, 250);
+  // put your main code here, to run repeatedly:
+  do {
+    rosso();
+    while(sr04.Distance()<20) {
+      tone(BPIN, 587, 100);
+      delay(100);
+      tone(BPIN, 440, 100);
+      delay(100);
+      Serial.print(sr04.Distance());
+      Serial.println("cm");
+    }
     delay(250);
-    tone(BPIN, 440, 250);
-    delay(250);
-  }
+    del++;
+    Serial.print(sr04.Distance());
+    Serial.println("cm");
+    Serial.println(del);
+  } while(del<32);
+  del = 0;
   giallo();
   verde();
 }
+
+
+
+
+
+
+
+
+
+
+
