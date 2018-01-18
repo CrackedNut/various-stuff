@@ -33,6 +33,6 @@ begin
 	readv(vec);
     writeln();
 	writev(vec);
-    write('Press any key to continue...')
+    write('Press any key to continue...');
 	readln();
 end.
