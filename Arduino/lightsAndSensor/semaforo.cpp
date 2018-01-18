@@ -42,11 +42,8 @@ void setup() {
 }
 
 void loop() {
-	a=sr04.Distance();
-	Serial.print(a);
-    Serial.println("cm");
 	rosso();
-	while(a>sr04.Distance()){
+	while(sr04.Distance()<20){
 		tone(BPIN, 587, 250);
 		delay(250);
 		tone(BPIN, 440, 250);

@@ -19,9 +19,6 @@ void green()
 void blue()
 {
   digitalWrite(RED, LOW);
-  digitalWrite(GREEN, LOW);
-  digitalWrite(BLUE, HIGH);
-}
 
 void setup()
 {
@@ -30,12 +27,11 @@ void setup()
   pinMode(BLUE, OUTPUT);
 }
 
-void loop()
-{
+void loop(){
   red();
   delay(500);
   green();
   delay(500);
   blue();
   delay(500);
-}
+  }
