@@ -9,14 +9,13 @@ type
 var
 	vec : v; 
 
-
 procedure readv (var x : v);
 var
 	i : 1..dmax;
 begin
 	for i:= 1 to dmax do
 	begin
-		write('Elemento [',i, ']');
+		write('Elemento [',i, ']: ');
 		readln(x[i]);
 		writeln('')
 	end;
@@ -32,7 +31,8 @@ end;
 
 begin
 	readv(vec);
-	readln();
+    writeln();
 	writev(vec);
+    write('Press any key to continue...')
 	readln();
 end.
