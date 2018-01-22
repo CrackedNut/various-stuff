@@ -5,15 +5,11 @@ importing shit
 """
 import math
 
-""" 
-
-func
-
-"""
-def func(): #test
+def func():
+    """test function"""
     print("test\n")
-    aTry = input("num: ")
-    if aTry == 0:
+    trying = input("num: ")
+    if trying == 0:
         print(math.pi)
     else:
         print(math.cos(math.pi))
