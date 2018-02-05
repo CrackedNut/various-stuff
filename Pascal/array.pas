@@ -1,5 +1,7 @@
 program arraytest;
 
+uses crt;
+
 const
 	dmax = 10;
 
@@ -8,16 +10,21 @@ type
 
 var
 	vec : v; 
-	scelta : Integer = 3;
+	scelta : Integer;
+
 procedure presentazione();
 	begin
-		writeln('Questo è un programma che legge o stampa un array.')
+		write('Questo programma gestisce un array. (Premi invio per continuare...)');
+		readln();
 	end;
 
 procedure menu();
 	begin
-		writeln('1) leggi vettore');
-		writeln('2) stampa vettore') ;
+
+		writeln('1) Leggi vettore');
+		writeln('2) Stampa vettore') ;
+        writeln('3) Esegui media tra gli elementi');
+        writeln('4) Cerca nel vettore');
 		writeln('0) esci');
 		write('Scelta: ');
 		readln(scelta);
@@ -41,22 +48,65 @@ procedure writev (var y : v);
 		i : 1..dmax;
 	begin
 		for i := 1 to 10 do
-			writeln('Elemento [', i, '] = ', y[i])
+			writeln('Elemento [', i, '] = ', y[i]);
+        readln();
 	end;
 
+procedure average(var vet:v);
+	var
+        somma : Integer;
+		av : Real;
+        i : Integer;
+	begin
+        somma := 0;
+		for i := 1 to dmax do
+		begin
+		 	somma := somma + vet[i];
+		end;
+		av := somma/dmax;
+		writeln('Media numeri = ', av);
+        read();
+	end;
+
+procedure search(var vet:v);
+	var
+		i : 1..dmax;
+		n : Integer;
+        ind : Integer;
+        contains : Boolean;
+	begin
+		write('Numero: ');
+		readln(n);
+        contains := false;
+		for i := 1 to dmax do
+		begin
+			if  vet[i] = n then
+                contains := true;
+                ind := i;
+		end;
+        if contains = true then
+            writeln('Il vettore con indice, [', ind,'], contiene il numero ', n);
+            writeln();
+        if contains = false then
+            writeln('Il vettore non contiene il numero ', n);
+            writeln();
+		read();
+	end;
+
+
 begin
+    scelta := 100;
 	presentazione();
 	while scelta <> 0 do 
 	begin
 		menu();
-		if scelta = 1 then 
-			readv(vec);  	
-			writeln();
-
-		if scelta = 2 then 
-			writev(vec);
-			writeln;
+		case scelta of
+			1: readv(vec);
+			2: writev(vec);
+			3: average(vec);
+			4: search(vec)
+		end;
 	end;
-	writeln('Press any key to continue... ');
-	readln();
+	writeln('Press enter to continue... ');
+	read();
 end.
