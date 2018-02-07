@@ -25,6 +25,7 @@ procedure menu();
 		writeln('2) Stampa vettore') ;
         writeln('3) Esegui media tra gli elementi');
         writeln('4) Cerca nel vettore');
+        writeln('5) Pulisci schermo');
 		writeln('0) esci');
 		write('Scelta: ');
 		readln(scelta);
@@ -81,8 +82,11 @@ procedure search(var vet:v);
 		for i := 1 to dmax do
 		begin
 			if  vet[i] = n then
+            begin
                 contains := true;
                 ind := i;
+                Break;
+            end;
 		end;
         if contains = true then
             writeln('Il vettore con indice, [', ind,'], contiene il numero ', n);
@@ -92,6 +96,16 @@ procedure search(var vet:v);
             writeln();
 		read();
 	end;
+
+procedure sort(var vet:v);
+	var
+		i : Integer;
+		j : Integer;
+	begin
+		for i:= 1 to dmax do
+			for j:= 1 to dmax do
+				if vet[i] > vet[j]
+				then 
 
 
 begin
@@ -104,7 +118,9 @@ begin
 			1: readv(vec);
 			2: writev(vec);
 			3: average(vec);
-			4: search(vec)
+			4: search(vec);
+			5: sort()
+            9: ClrScr;
 		end;
 	end;
 	writeln('Press enter to continue... ');
