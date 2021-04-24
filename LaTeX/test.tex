@@ -1,0 +1,106 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\begin{document}
+    \newtheorem*{osservazione}{Osservazione}
+    \newtheorem*{definizione}{Definizione}
+    \newtheorem*{notazione}{Notazione}
+    \newtheorem{proposizione}{Proposizione}[section]
+    \newtheorem{corollario}{Corollario}[proposizione]
+    \title{Formalizzazione della regola della mensa}
+    \author{Luigi Pugliese}
+    \maketitle
+    \begin{abstract}
+        La regola della mensa è una delle fondamentali leggi che governano la vita degli studenti dell' Università della Calabria che per sfamarsi utilizzano i servizi offerti dalle varie mense.
+        Essa dà il diritto di sottrarre \emph{una} patatina per piatto da ognuno dei commensali di chi la applica. Può essere estesa al di fuori del proprio tavolo, ma questo articolo tratterà il caso specifico
+        in cui la regola è applicabile solo al proprio tavolo.
+
+        Questo articolo ne darà una formulazione matematica.
+    \end{abstract}
+    \newpage
+    \renewcommand\contentsname{Contenuti}
+    \renewcommand\proofname{Dimostrazione}
+    \tableofcontents{}
+    \addtocontents{toc}{~\hfill\textbf{Pagina}\par}
+    \newpage
+    \section{Assiomi}
+    Alcuni assiomi della mensa sono indispensabili.
+    \begin{enumerate}
+        \item No tesserino, no mangi (se non dividi)
+        \item Ogni studente può passare quanti tesserini vuole
+        \item Ogni tesserino ha 5 punti a disposizione
+        \item Per ogni tesserino esiste un solo primo e un solo secondo
+        \item Chi ci lavora è \emph{quasi} sempre stronzo
+    \end{enumerate}
+    \newpage
+    \section{Commensali e patatine}
+    \subsection{Cosa è un commensale}
+    \begin{definizione}
+        Sia $I$ l'individuo che vuole applicare la regola della mensa. Per commensali si intendono le persone sedute allo stesso tavolo di $I$ e possiamo indicare con $C$ l'insieme dei commensali.
+    \end{definizione}
+    \begin{osservazione}
+        Il numero dei commensali è finito, dunque possiamo numerarli, ossia assegnare a ognuno di esse un numero naturale, dunque indichiamo il signolo commensale con $c_j$.
+    \end{osservazione}
+    \begin{osservazione}
+        Per l'assioma $\mathbf{2}$, possiamo supporre che un commensale abbia $t$ tesserini a disposizione    
+    \end{osservazione}
+    \subsection{I piatti di patatine}
+    \begin{definizione}
+        Un piatto di patatine è un qualsiasi piatto contenente almeno una patatina. Indichiamo l'insieme dei piatti di patatine su un tavolo con $\mathbf{P}$.
+    \end{definizione}
+    \begin{proposizione}
+       Sia $t$ il numero di tesserini posseduti da una persona. Allora quella persona può avere al più $2t$ piatti di patatine.
+    \end{proposizione}
+    \begin{proof}
+        Ovviamente se $t=0$, allora la persona non può possedere propriamente alcun piatto, dunque non può avere piatti contententi patatine.
+        Supponiamo ora $t>0$. Per gli assiomi $\mathbf{4}$ e $\mathbf{5}$, non puoi avere due secondi (per tesserino), dunque, poiché l'unica altra alternativa per avere più piatti di patatine sono i contorni, si ha al più $2$ piatti di patatine, in quanto due contorni con patatine non te li danno.
+    \end{proof}
+    \begin{corollario}
+        Sia $|C|=n$. Ogni tavolo può avere al più $2nt$ piatti di patatine.
+    \end{corollario}
+    \begin{proof}
+        Per la proposizione precedente, ogni commensale può avere al più $2t$ piatti di patatine, dunque se $|C|=n$, si avranno su uno stesso tavolo al più $2tn$ piatti di patatine. 
+    \end{proof}
+    \newpage
+    \subsection{Le patatine}
+    \begin{osservazione}
+        Ogni elemento di $\mathbf{P}$ ha un numero \underline{molto} finito di patatine, dunque possiamo numerarle.
+    \end{osservazione}
+    \begin{notazione}
+        Possiamo indicare ogni singola patatina con $p_{i,j}$, dove $i$ indica il piatto in cui si trova e $j$ il numero naturale assegnatole.\\
+        Inoltre, possiamo costruire una matrice $\mathbf{M}$ di dimensione $a\times b$, dove $a=|P|$ e $b=max\{|\pi|:\pi\in\mathbf{P}\}$. Si avrà:
+        \begin{center}
+            $\mathbf{M}=
+            \begin{bmatrix}
+                & p_{1,1} & \dots & p_{1,b}\\
+                &\vdots\\
+                & p_{a,1} & \dots & p_{a,b}\ (patatina\ o\ \emptyset )
+            \end{bmatrix}$
+        \end{center}
+        costruita in modo che, se esiste $\pi\in\mathbf{P}$ tale che $|\pi|<max\{|\mu|:\mu\in\mathbf{P}\}$, ci saranno $b-|\pi|$ insiemi vuoti nella riga corrispondente al piatto $\pi$.
+    \end{notazione}
+    \section{Patatine ai commensali}
+    \subsection{L'idea}
+    \begin{definizione}
+        Sia A l'insieme di tutte le patatine unito a $\{\emptyset\}$, l'insieme contenente \underline{come elemento} l'insieme vuoto.
+    \end{definizione}    
+    L'idea è quella di assegnare a ogni commensale una e una sola patatina da ogni piatto presente su un dato tavolo.
+    \subsection{La mappa}
+    A tale scopo possiamo utilizzare la seguente mappa:
+    \begin{center}
+        $\begin{matrix}
+        \Pi&\!\!\!\!:\mathbf{C}\longrightarrow\ A\times A\times\dots \times A\ (b\ volte)\\
+           &\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!\!c_i \longmapsto (p_{1,j},..., p_{a,j})
+        \end{matrix}$
+    \end{center}
+    dove $\mathbf{C}$ è l'insieme dei commensali e i $p_{n,j}$ sono gli elementi della matrice $\mathbf{M}$.
+    \subsection{Perché funziona?}
+    Questa funzione è una buona formulazione della regola della mensa? Sì, infatti l'arbitrarietà della numerazione di ogni elemento ci assicura che ogni patatina di ogni piatto venga assegnata a uno dei commensali e in caso non ci siano sufficienti patatine, verrà assegnato l'insieme vuoto, ossia nessuna patatina.
+    \section{Conclusioni}
+    Questa formulazione della regola della mensa, seppur limitata, è facilmente ampliabile e permette una pacifica convivenza fra gli utilizzatori della mensa. 
+    \newpage
+    \section{Ringraziamenti}
+    Ringrazio Ismallo per l'idea, Narco che mi è stato accanto tutto il pomeriggio, internet che mi ha insegnato a scrivere in $LaTe\chi$ e il mio PC che non si è scaricato.
+\end{document}
