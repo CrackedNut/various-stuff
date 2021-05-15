@@ -7,6 +7,8 @@ int main() {
 
   int* b = new int[5];
 
+  int x;
+
   for(int i= 0; i < 5; i++)
     b[i] = i + 1;
 
@@ -18,8 +20,8 @@ int main() {
 
   for(int i = 0; i < 5; i++)
     cout << &b[i] << endl;
-  delete [] b;
-
+  //delete [] b;
+  cin >> x;
 
   return 0;
 }
