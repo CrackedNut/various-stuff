@@ -48,7 +48,7 @@ class Vector2D:
 	def __str__(self):
 		return "X: " + str(self.x) + "Y :" + str(self.y)
 
-def Main():
+def main():
 	vec = Vector2D(5, 6)
 	vec2 = Vector2D(2, 3)
 	print(vec)
@@ -71,4 +71,4 @@ def Main():
 	print(tempmethod())
 
 if __name__ == "__main__":
-	Main()
+	main()
